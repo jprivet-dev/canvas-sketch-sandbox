@@ -1,0 +1,15 @@
+{
+  "name": "canvas-sketch-sandbox",
+  "version": "1.0.0",
+  "description": "[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/github/jprivet-dev/canvas-sketch-sandbox/)",
+  "main": "sketch-01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-sketch": "^0.7.7"
+  }
+}
