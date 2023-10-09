@@ -31,46 +31,40 @@ git clone git@github.com:jprivet-dev/canvas-sketch-sandbox.git
 cd canvas-sketch-sandbox
 ```
 
-3 - Launch the project:
+3 - Launch the first sketch, for example, and open the browser:
 
 ```shell
-make start
+canvas-sketch sketch-01.js --open
 ```
-
-4 - Go on http://localhost:4200/
 
 ### All in one command
 
 ```shell
 git clone git@github.com:jprivet-dev/canvas-sketch-sandbox.git;\
 cd canvas-sketch-sandbox;\
-make start
+canvas-sketch sketch-01.js --open
 ```
 
 ### The following times
 
-1 - Launch the project:
+1 - Launch the first sketch, for example, and open the browser:
 
 ```shell
-make start
+canvas-sketch sketch-01.js --open
 ```
 
-2 - Go on http://localhost:4200/
-
-3 - Stop the project:
-
-```shell
-make stop
-```
+2 - Stop the project with ``Ctrl + C`
 
 ## Open the project in StackBlitz
 
 Go on https://stackblitz.com/github/jprivet-dev/canvas-sketch-sandbox/
 
-## Other essential commands
+## Essential commands
+
+Start a new sketch and open the browser:
 
 ```shell
-make
+canvas-sketch sketch.js --new --open
 ```
 
 ## Resources
