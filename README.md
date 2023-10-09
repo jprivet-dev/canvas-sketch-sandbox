@@ -70,6 +70,7 @@ canvas-sketch sketch.js --new --open
 ## Resources
 
 - https://github.com/mattdesl/canvas-sketch
+- https://github.com/mattdesl/canvas-sketch-util
 - https://stackblitz.com/
 - [StackBlitz: Launching projects from GitHub](https://developer.stackblitz.com/guides/integration/open-from-github)
 - https://badgen.net/
