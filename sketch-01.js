@@ -40,9 +40,15 @@ class Agent {
   }
 
   draw (context) {
-    context.beginPath();
-    context.arc(this.pos.x, this.pos.y, this.radius, 0, Math.PI * 2);
     context.fillStyle = 'black';
+
+    context.save();
+    context.translate(this.pos.x, this.pos.y);
+
+    context.beginPath();
+    context.arc(0, 0, this.radius, 0, Math.PI * 2);
     context.fill();
+
+    context.restore();
   }
 }
