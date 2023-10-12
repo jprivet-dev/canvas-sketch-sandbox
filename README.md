@@ -31,10 +31,15 @@ git clone git@github.com:jprivet-dev/canvas-sketch-sandbox.git
 cd canvas-sketch-sandbox
 ```
 
-3 - Launch the first sketch, for example, and open the browser:
+3 - Install dependencies:
 
 ```shell
-canvas-sketch sketch-01.js --open
+npm install
+```
+4 - Launch the first sketch, for example, and open the browser:
+
+```shell
+canvas-sketch sketch-01.js --open --output=./tmp/
 ```
 
 ### All in one command
@@ -42,7 +47,8 @@ canvas-sketch sketch-01.js --open
 ```shell
 git clone git@github.com:jprivet-dev/canvas-sketch-sandbox.git;\
 cd canvas-sketch-sandbox;\
-canvas-sketch sketch-01.js --open
+npm install;\
+canvas-sketch sketch-01.js --open --output=./tmp/
 ```
 
 ### The following times
@@ -50,7 +56,7 @@ canvas-sketch sketch-01.js --open
 1 - Launch the first sketch, for example, and open the browser:
 
 ```shell
-canvas-sketch sketch-01.js --open
+canvas-sketch sketch-01.js --open --output=./tmp/
 ```
 
 2 - Stop the project with ``Ctrl + C`
@@ -64,7 +70,7 @@ Go on https://stackblitz.com/github/jprivet-dev/canvas-sketch-sandbox/
 Start a new sketch and open the browser:
 
 ```shell
-canvas-sketch sketch.js --new --open
+canvas-sketch sketch.js --new --open --output=./tmp/
 ```
 
 ## Resources
